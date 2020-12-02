@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class Contact {
+    
+    var name: String
+    var relationship: String?
+    
+    init(name: String, relationship: String? = nil) {
+        self.name = name
+        self.relationship = relationship
+    }
+}
